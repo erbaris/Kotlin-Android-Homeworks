@@ -4,7 +4,7 @@ import kotlin.math.sqrt as sqrt
 
 fun main() {
     while (true) {
-        print("Select Solution Number of 5 (0 for exit):")
+        print("Select Solution Number of 4 (0 for exit):")
         val n = readLine()!!.toInt()
         when (n) {
             0 -> break
