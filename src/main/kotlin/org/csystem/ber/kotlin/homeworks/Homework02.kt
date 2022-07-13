@@ -2,7 +2,6 @@ package org.csystem.ber.kotlin.homeworks
 
 import kotlin.math.abs
 
-// HW2
 fun main()
 {
     while (true) {
