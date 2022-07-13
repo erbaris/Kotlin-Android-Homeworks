@@ -2,7 +2,6 @@ package org.csystem.ber.kotlin.homeworks
 
 import kotlin.math.abs
 
-// Homework 2
 
 fun main()
 {

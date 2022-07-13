@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb474653-b2b7-4828-a141-ca2a48e01672" name="Changes" comment="Homework 1 and 2 Solutions" />
+    <list default="true" id="eb474653-b2b7-4828-a141-ca2a48e01672" name="Changes" comment="Homework 1 and 2 Solutions">
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/csystem/ber/kotlin/homeworks/Homework02.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/csystem/ber/kotlin/homeworks/Homework02.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,7 +78,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657711853444</updated>
-      <workItem from="1657711854674" duration="1373000" />
+      <workItem from="1657711854674" duration="1692000" />
     </task>
     <task id="LOCAL-00001" summary="Homework 1 and 2 Solutions">
       <created>1657712447097</created>
@@ -92,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657713230553</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Homework 1 and 2 Solutions">
+      <created>1657713470247</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1657713470247</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
