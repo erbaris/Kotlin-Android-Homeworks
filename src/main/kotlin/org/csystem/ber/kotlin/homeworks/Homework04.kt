@@ -3,6 +3,7 @@ package org.csystem.ber.kotlin.homeworks
 //Homewrok04 Solution - Baris ER
 
 fun main() {
+    println("--Number Calculator App--")
     calculationApp()
 }
 

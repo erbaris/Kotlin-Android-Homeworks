@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb474653-b2b7-4828-a141-ca2a48e01672" name="Changes" comment="Homework 3 Solutions">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/org/csystem/ber/kotlin/homeworks/Homework04.kt" afterDir="false" />
+    <list default="true" id="eb474653-b2b7-4828-a141-ca2a48e01672" name="Changes" comment="Homework 4 Solutions">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/org/csystem/ber/kotlin/homeworks/Homework05.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/csystem/ber/kotlin/homeworks/Homework04.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/csystem/ber/kotlin/homeworks/Homework04.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +54,7 @@
       <recent name="C:\Users\BER-Monster\Dropbox\Java_Projects_BER_22\Kotlin\Kotlin-Android-CSD-Homeworks\Kotlin_Android_Homeworks" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.Homework04Kt">
+  <component name="RunManager" selected="Kotlin.Homework05Kt">
     <configuration name="Homework01Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.csystem.ber.kotlin.homeworks.Homework01Kt" />
       <module name="Kotlin_Android_Homeworks" />
@@ -82,8 +83,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Homework05Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.csystem.ber.kotlin.homeworks.Homework05Kt" />
+      <module name="Kotlin_Android_Homeworks" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Homework05Kt" />
         <item itemvalue="Kotlin.Homework04Kt" />
         <item itemvalue="Kotlin.Homework03Kt" />
         <item itemvalue="Kotlin.Homework02Kt" />
@@ -101,7 +110,7 @@
       <updated>1657711853444</updated>
       <workItem from="1657711854674" duration="2711000" />
       <workItem from="1657714850517" duration="10763000" />
-      <workItem from="1657740974097" duration="2258000" />
+      <workItem from="1657740974097" duration="5611000" />
     </task>
     <task id="LOCAL-00001" summary="Homework 1 and 2 Solutions">
       <created>1657712447097</created>
@@ -159,7 +168,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657741730520</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Homework 4 Solutions">
+      <created>1657743554466</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1657743554466</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,6 +207,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Homework 1 and 2 Solutions" />
     <MESSAGE value="Homework 3 Solutions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework 3 Solutions" />
+    <MESSAGE value="Homework 4 Solutions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework 4 Solutions" />
   </component>
 </project>
