@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="eb474653-b2b7-4828-a141-ca2a48e01672" name="Changes" comment="Homework 1 and 2 Solutions">
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/csystem/ber/kotlin/homeworks/Homework02.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/csystem/ber/kotlin/homeworks/Homework02.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +40,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/BER-Monster/Dropbox/Java_Projects_BER_22/Kotlin/Kotlin-Android-CSD-Homeworks/Kotlin_Android_Homeworks"
+    "last_opened_file_path": "C:/Users/BER-Monster/Dropbox/Java_Projects_BER_22/Kotlin/Kotlin-Android-CSD-Homeworks/Kotlin_Android_Homeworks",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -78,7 +79,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1657711853444</updated>
-      <workItem from="1657711854674" duration="1692000" />
+      <workItem from="1657711854674" duration="2711000" />
+      <workItem from="1657714850517" duration="1017000" />
     </task>
     <task id="LOCAL-00001" summary="Homework 1 and 2 Solutions">
       <created>1657712447097</created>
@@ -106,6 +108,17 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
