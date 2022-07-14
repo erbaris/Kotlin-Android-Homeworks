@@ -112,8 +112,8 @@ fun printPrimeFactors(n: Int)
     var tmp = abs(n)
     var i = 2
 
-    while ( tmp != 1)
-        if( tmp % i == 0) {
+    while (tmp != 1)
+        if(tmp % i == 0) {
             println("Prime Factor: ${i}")
             tmp /= i
         }
