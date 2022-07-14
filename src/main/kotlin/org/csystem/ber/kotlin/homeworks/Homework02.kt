@@ -129,59 +129,57 @@ fun HW02_4_run()
     val height = readLine()!!.toInt()
     print("Enter width:")
     val width = readLine()!!.toInt()
-    val b = BallFallGame(width, height)
-    b.play()
+    ballFallGameApp(width, height)
 }
-class BallFallGame(width: Int, height: Int) {
-    val width = width
-    val height = height
-    var directionRight = true
-    var ballIdx = 0
 
-    fun play() {
-        for(i in 1..height)
+        fun ballFallGameApp(width: Int, height: Int) {
+            var directionRight = true
+            var ballIdx = 0
+            for(i in 1..height)
+            {
+                print('|')
+                printBallLine(width, ballIdx, directionRight)
+                if (width != 1) {
+                    ballIdx = updateBall(directionRight, ballIdx)
+                    directionRight = checkDirection(directionRight, ballIdx, width)
+                }
+                println('|')
+            }
+        }
+
+        fun printBallLine(width: Int, ballIdx: Int, directionRight: Boolean)
         {
-            print('|')
-            printBallLine()
-            println('|')
+            fillSpace(0, ballIdx)
+            print('*')
+            fillSpace(ballIdx + 1, width)
+
         }
-    }
 
-    fun printBallLine()
-    {
-        fillSpace(0, ballIdx)
-        print('*')
-        fillSpace(ballIdx + 1, width)
-        if (width != 1) {
-            updateBall()
-            checkDirection()
+        fun fillSpace(start: Int, stop: Int)
+        {
+            for(i in start until stop)
+                print(' ')
         }
-    }
 
-    fun fillSpace(start: Int, stop: Int)
-    {
-        for(i in start until stop)
-            print(' ')
-    }
+        fun updateBall(directionRight: Boolean, ballIdx: Int) : Int
+        {
+            if(directionRight)
+                return ballIdx + 1
+            else
+                return ballIdx - 1
 
-    fun updateBall()
-    {
-        if(directionRight)
-            ballIdx++
-        else
-            ballIdx--
+        }
 
-    }
+        fun checkDirection(directionRight: Boolean, ballIdx: Int, width: Int): Boolean
+        {
+            if(ballIdx == width -1 )
+                return false
+            else if(ballIdx == 0)
+                return true
+            else
+                return directionRight
+        }
 
-    fun checkDirection()
-    {
-        if(ballIdx == width -1 )
-            directionRight = false
-        if(ballIdx == 0)
-            directionRight = true
-    }
-
-}
 
 
 fun HW02_5_run()
