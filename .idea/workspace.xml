@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eb474653-b2b7-4828-a141-ca2a48e01672" name="Changes" comment="Homework 2 Solutions">
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/csystem/ber/kotlin/homeworks/Homework01.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/csystem/ber/kotlin/homeworks/Homework01.kt" afterDir="false" />
+    <list default="true" id="eb474653-b2b7-4828-a141-ca2a48e01672" name="Changes" comment="Homework 1 Solutions">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/csystem/ber/kotlin/homeworks/Homework02.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/csystem/ber/kotlin/homeworks/Homework02.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +53,7 @@
       <recent name="C:\Users\BER-Monster\Dropbox\Java_Projects_BER_22\Kotlin\Kotlin-Android-CSD-Homeworks\Kotlin_Android_Homeworks" />
     </key>
   </component>
-  <component name="RunManager" selected="Kotlin.Homework01Kt">
+  <component name="RunManager" selected="Kotlin.Homework02Kt">
     <configuration name="Homework01Kt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.csystem.ber.kotlin.homeworks.Homework01Kt" />
       <module name="Kotlin_Android_Homeworks" />
@@ -90,11 +91,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.Homework02Kt" />
         <item itemvalue="Kotlin.Homework01Kt" />
         <item itemvalue="Kotlin.Homework05Kt" />
         <item itemvalue="Kotlin.Homework04Kt" />
         <item itemvalue="Kotlin.Homework03Kt" />
-        <item itemvalue="Kotlin.Homework02Kt" />
       </list>
     </recent_temporary>
   </component>
@@ -109,7 +110,7 @@
       <workItem from="1657711854674" duration="2711000" />
       <workItem from="1657714850517" duration="10763000" />
       <workItem from="1657740974097" duration="6649000" />
-      <workItem from="1657813874185" duration="3252000" />
+      <workItem from="1657813874185" duration="4365000" />
     </task>
     <task id="LOCAL-00001" summary="Homework 1 and 2 Solutions">
       <created>1657712447097</created>
@@ -202,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657820942818</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Homework 1 Solutions">
+      <created>1657821138637</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1657821138637</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,6 +245,7 @@
     <MESSAGE value="Homework 5 Solutions" />
     <MESSAGE value="Homework 4 Solutions" />
     <MESSAGE value="Homework 2 Solutions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Homework 2 Solutions" />
+    <MESSAGE value="Homework 1 Solutions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Homework 1 Solutions" />
   </component>
 </project>

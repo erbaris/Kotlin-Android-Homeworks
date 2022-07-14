@@ -152,8 +152,10 @@ class BallFallGame(width: Int, height: Int) {
         fillSpace(0, ballIdx)
         print('*')
         fillSpace(ballIdx + 1, width)
-        updateBall()
-        checkDirection()
+        if (width != 1) {
+            updateBall()
+            checkDirection()
+        }
     }
 
     fun fillSpace(start: Int, stop: Int)
@@ -173,12 +175,10 @@ class BallFallGame(width: Int, height: Int) {
 
     fun checkDirection()
     {
-        ///println(directionRight)
         if(ballIdx == width -1 )
             directionRight = false
         if(ballIdx == 0)
             directionRight = true
-        //println(directionRight)
     }
 
 }
