@@ -50,7 +50,7 @@ fun HW01_3_run()
         if(value == 999)
             break
 
-        val sing = signumHW(value)
+        val sing = signum(value)
 
         println(when {  sing == 1 -> "The number is positive"
             sing == 0-> "The number is zero"
@@ -74,16 +74,16 @@ fun printRelationsApp(n1: Int, n2: Int, n3: Int)
 
 fun findMid(n1: Int, n2: Int, n3: Int): Int
 {
-    if(n1 >= n2 && n1 <= n3 || n1 <= n2 && n1 >= n3)
+    if(n1 in n2..n3 || n1 in n3..n2)
         return n1
 
-    if(n2 >= n1 && n2 <= n3 || n2 <= n1 && n2 >= n3)
+    if(n2 in n1..n3 || n2 in n3..n1)
         return n2
 
     return n3
 }
 
-fun signumHW(value: Int): Int
+fun signum(value: Int): Int
 {
     return when {
         value > 0 -> 1
